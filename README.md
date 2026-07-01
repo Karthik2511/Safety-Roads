@@ -203,7 +203,7 @@ pothole-detector/
 │   └── requirements.txt          # Python dependencies
 │
 ├── assets/                        # Images and media
-├── Imgs/                          # Screenshot showcase
+├── public/images/                 # Screenshot showcase and demo media
 └── DOCUMENTATION/                 # Setup guides
 ```
 
@@ -288,17 +288,51 @@ Confidence Score < 0.5 → Low Severity 🟡
 
 ## 📸 Showcase
 
-All screenshots and demonstrations are available in the `Imgs/` folder:
+The key project visuals are embedded below so they display directly in this README.
 
-- System architecture diagrams
-- Data flow visualizations
-- YOLO detection concept
-- Confusion matrices
-- Training metrics
-- Before/After comparisons
-- Performance dashboards
-- Live detection screenshots
-- Map integration demos
+### Architecture and Workflow
+
+| Architecture                                                                                   | Data Flow                                                                                      |
+| ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
+| <img src="./public/images/01_system_architecture.png" width="360" alt="System architecture" /> | <img src="./public/images/02_data_flow_diagram.png" width="360" alt="Data flow diagram" />     |
+| <img src="./public/images/03_yolo_concept.png" width="360" alt="YOLO concept" />               | <img src="./public/images/09_detection_flowchart.png" width="360" alt="Detection flowchart" /> |
+
+### Training and Results
+
+| Confusion Matrix                                                                         | Training Graph                                                                       |
+| ---------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
+| <img src="./public/images/04_confusion_matrix.png" width="360" alt="Confusion matrix" /> | <img src="./public/images/05_training_graph.png" width="360" alt="Training graph" /> |
+
+| Before / After                                                                                     | Severity Map                                                                     |
+| -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
+| <img src="./public/images/06_before_vs_after.png" width="360" alt="Before and after comparison" /> | <img src="./public/images/07_severity_map.png" width="360" alt="Severity map" /> |
+
+| Performance Dashboard                                                                              | Live Detection                                                                                       |
+| -------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
+| <img src="./public/images/08_performance_dashboard.png" width="360" alt="Performance dashboard" /> | <img src="./public/images/checking%20for%20pothole.png" width="360" alt="Pothole detection check" /> |
+
+### App Screens
+
+| Backend Health                                                                             | Maps                                                              |
+| ------------------------------------------------------------------------------------------ | ----------------------------------------------------------------- |
+| <img src="./public/images/backend%20health.png" width="360" alt="Backend health screen" /> | <img src="./public/images/Maps.png" width="360" alt="Map view" /> |
+
+| Pothole                                                                    | No Pothole                                                                       |
+| -------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
+| <img src="./public/images/Pothole.png" width="360" alt="Pothole result" /> | <img src="./public/images/No-Pothole.png" width="360" alt="No pothole result" /> |
+
+| Report                                                                   | Scan                                                                                     |
+| ------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------- |
+| <img src="./public/images/Report.png" width="360" alt="Report screen" /> | <img src="./public/images/Scanning%20pothles.png" width="360" alt="Scanning potholes" /> |
+
+| Validation                                                                              | Reference                                                                      |
+| --------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
+| <img src="./public/images/Validating%20IMGs.png" width="360" alt="Validating images" /> | <img src="./public/images/reff%20img.png" width="360" alt="Reference image" /> |
+
+### Extra Assets
+
+- [Full project PDF](./public/images/Final%20Project%20AI-Based%20Pothole%20Detection.pdf)
+- [Demo video](./public/images/Project.mp4)
 
 ---
 
