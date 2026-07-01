@@ -122,7 +122,7 @@ Open source: github.com/Karthik2511/Safety-Road
 
 ### Project Images
 
-All screenshots in `Imgs/` folder:
+All screenshots and demo media in `public/images/`:
 
 - System architecture diagrams
 - Detection examples

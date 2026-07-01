@@ -51,7 +51,7 @@ pothole-detector/
 │   └── yolov8n.pt                 # Model weights
 │
 ├── 📸 SHOWCASE
-│   ├── Imgs/                      # Screenshots
+│   ├── public/images/             # Screenshots and demo media
 │   └── GITHUB_PORTFOLIO/          # Portfolio docs
 │
 ├── 🔧 CONFIGURATION
